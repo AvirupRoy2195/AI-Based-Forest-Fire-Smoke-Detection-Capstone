@@ -1,0 +1,26 @@
+{
+    "model_type": "RandomForestClassifier",
+    "features_used": [
+        "mean_red",
+        "mean_green",
+        "mean_blue",
+        "red_blue_ratio",
+        "intensity_std",
+        "edge_density",
+        "smoke_whiteness",
+        "haze_index",
+        "hot_pixel_fraction",
+        "local_contrast",
+        "red_green_ratio",
+        "red_blue_ratio_calc",
+        "color_mean",
+        "color_std",
+        "log_intensity_std",
+        "x_coord",
+        "y_coord"
+    ],
+    "random_state": 42,
+    "scaler": "StandardScaler",
+    "train_samples": 2400,
+    "test_samples": 600
+}
