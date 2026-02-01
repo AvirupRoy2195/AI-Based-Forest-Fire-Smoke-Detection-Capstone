@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## \ud83d\udd25 Project Overview
+## Project Overview
 
 This capstone project implements an advanced **AI pipeline for reducing forest fire disasters** by detecting smoke and fire anomalies from IoT sensor data.
 
@@ -13,17 +13,18 @@ Moving beyond simple binary classification, this system incorporates:
 - **Dual-Track Modeling**: Unsupervised Gaussian Anomaly Detection vs. Supervised Ensembles (GBM/RF/SVM).
 - **Operational Intelligence**: Spatial Risk Heatmaps & Drone Deployment Strategies.
 
-## \ud83d\udcc2 Repository Structure
+## Repository Structure
 
 | File | Description |
 | :--- | :--- |
 | `Final_Forest_Fire_Smoke_Detection.ipynb` | **Main Notebook**. Complete pipeline from data to drone strategy. |
 | `Project_Documentation.txt` | Exhaustive step-by-step methodology guide. |
 | `ARCHITECTURE.md` | System design and data flow diagrams. |
+| `METHODOLOGY.md` | Detailed explanation of modeling approaches. |
 | `requirements.txt` | Python dependencies. |
-| `Dataset.xlsx` | (Example) Forest Fire Smoke Dataset. |
+| `Forest Fire Smoke Dataset.xlsx` | Source dataset. |
 
-## \ud83d\ude80 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 
@@ -46,7 +47,7 @@ Launch Jupyter Notebook and run the main file:
 jupyter notebook Final_Forest_Fire_Smoke_Detection.ipynb
 ```
 
-## \ud83d\udcca Key Features
+## Key Features
 
 ### 1. Robust Data Science
 
@@ -58,7 +59,7 @@ jupyter notebook Final_Forest_Fire_Smoke_Detection.ipynb
 
 - **Approach A: Gaussian Anomaly Detection**:
   - Multivariate Gaussian modeling on 'Normal' data.
-  - Optimized probability thresholding ($\epsilon$).
+  - Optimized probability thresholding (epsilon).
 - **Approach B: Supervised Classification**:
   - SMOTE for class imbalance.
   - Ensemble of **Gradient Boosting, Random Forest, SVM**.
@@ -69,9 +70,9 @@ jupyter notebook Final_Forest_Fire_Smoke_Detection.ipynb
 - **Risk Heatmap**: Simulates GPS coordinates and projects predicted fire risk.
 - **Drone Deployment**: Uses **K-Means Clustering** to find optimal station coordinates for drone fleets.
 
-## \ud83d\udee0\ufe0f Future Improvements
+## Future Improvements
 
-- **Edge AI**: Porting models to TFLite for on-drone interference.
+- **Edge AI**: Porting models to TFLite for on-drone inference.
 - **Sensor Fusion**: Integrating real-time weather API data.
 - **Time-Series**: Implementing LSTM for temporal trend analysis.
 
