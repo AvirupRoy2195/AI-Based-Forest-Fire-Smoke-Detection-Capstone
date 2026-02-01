@@ -1,40 +1,12 @@
-# =============================================================================
-# AI-Based Forest Fire & Smoke Detection - Dependencies
-# =============================================================================
-
-# Core Data Science
-numpy>=1.21.0
-pandas>=1.3.0
-scipy>=1.7.0
-
-# Machine Learning - Core
-scikit-learn>=1.0.0
-
-# Machine Learning - Gradient Boosting (optional)
-xgboost>=1.5.0
-lightgbm>=3.3.0
-
-# Imbalanced Learning (SMOTE)
-imbalanced-learn>=0.9.0
-
-# Statistical Analysis
-statsmodels>=0.13.0
-
-# Model Interpretability (optional)
-shap>=0.40.0
-
-# Visualization
-matplotlib>=3.5.0
-seaborn>=0.11.0
-plotly>=5.0.0
-
-# Jupyter Support
-jupyter>=1.0.0
-ipykernel>=6.0.0
-openpyxl>=3.0.0
-
-# Model Serialization
-joblib>=1.1.0
-
-# Utilities
-tqdm>=4.62.0
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+shap
+lime
+scipy
+joblib
+notebook
+openpyxl
